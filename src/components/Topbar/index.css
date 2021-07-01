@@ -1,3 +1,9 @@
+.navbar {
+    z-index: 90;
+    box-shadow: 0 1px 1px #ccc;
+    background-color: white;
+}
+
 .navbar-brand {
     text-transform: uppercase;
     padding: 0px !important;
