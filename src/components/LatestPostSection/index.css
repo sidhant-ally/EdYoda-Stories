@@ -1,0 +1,37 @@
+.latest-body {
+    padding: 2% 16%;
+}
+
+#latest-filter {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+#latest-filter h6 {
+    margin: 0px;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category-item {
+    font-size: small;
+    color: #0084ff;
+    padding: 6px 16px;
+    border-radius: 15px;
+    border: 1px solid #0084ff;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.selected {
+    color: white;
+    background-image: -webkit-linear-gradient(181deg, #0048ff, #0096ff), -webkit-linear-gradient(#000, #000);
+    background-image: -o-linear-gradient(181deg, #0048ff, #0096ff), -o-linear-gradient(#000, #000);
+    background-image: linear-gradient(269deg, #0048ff, #0096ff), linear-gradient(#000, #000);
+}
