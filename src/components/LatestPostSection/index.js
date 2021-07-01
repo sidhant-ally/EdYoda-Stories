@@ -11,14 +11,14 @@ const LatestPostSection = () => {
                 <img alt="Filter Icon" src={FILTER_IMG} style={{ width: '25px', height: '25px' }} />
                 <h6>Filter by Category</h6>
             </div>
-            <div class="category-list">
+            <div class="d-flex flex-wrap">
                 {CATEGORIES.map(({ title }, index) => {
                     if (index === 0)
                         return <div class="category-item selected">{title}</div>
                     return <div class="category-item">{title}</div>
                 })}
             </div>
-            <div class="blog-list">
+            <div class="d-flex flex-wrap">
                 {POSTS.map(blog => <BlogCard blog={blog} />)}
             </div>
         </div>
